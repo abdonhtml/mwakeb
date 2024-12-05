@@ -1,0 +1,47 @@
+﻿#products {
+    padding: 40px;
+    text-align: center;
+}
+
+#products h2 {
+    color: #FFCC00;
+    /* الأخضر */
+    margin-bottom: 20px;
+}
+
+.product {
+    display: inline-block;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 20px;
+    width: 200px;
+}
+
+.product:hover {
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.add-to-cart {
+    background-color: orange;
+    /* الأزرق */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.add-to-cart:hover {
+    background-color: blue;
+    /* الأخضر */
+}
+
